@@ -117,5 +117,3 @@ submission = pd.DataFrame({"PassengerId": test_id, "Survived": test_output})
 submission.to_csv("Submission/Submission_HGB_02.csv", index=False)
 
 submission.head()
-
-
