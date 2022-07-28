@@ -13,7 +13,8 @@ https://www.kaggle.com/competitions/titanic
 
 ## [Version 2 : HGB 2 (2022.07.28)](#list)
 
-- Use **HGB(Histogram-based Gradient Boosting)** with some parameters' change
+- **HGB(Histogram-based Gradient Boosting)** with some parameters' change  
+  I set `max_iter=1000` in my dream last night …… omg
 ```python
 hgb = HistGradientBoostingClassifier(max_leaf_nodes=5, learning_rate=0.01, max_iter=1000, random_state=604)
 ```
@@ -25,7 +26,8 @@ hgb = HistGradientBoostingClassifier(max_leaf_nodes=5, learning_rate=0.01, max_i
 
 ## [Version 1 : HGB (2022.07.27)](#list)
 
-- Use **HGB(Histogram-based Gradient Boosting)** with default parameters
+- **HGB(Histogram-based Gradient Boosting)** with default parameters
+- Use `HistGradientBoostingClassifier()` from `sklearn`
 - Pre-processing
   - Remove 4 variables  : 1 PassengerId, 3 Name, 8 Ticket (useless) / 10 Cabin (too many NaN)
   - Replace 3 variables : 4 Sex(categorical) 5 Age(fill NaN) 11 Embarked(fill NaN, categorical)
