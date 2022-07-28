@@ -123,6 +123,6 @@ test_input = test.iloc[:,1:].to_numpy()
 test_id = test["PassengerId"]
 test_output = hgb.predict(test_input)
 submission = pd.DataFrame({"PassengerId": test_id, "Survived": test_output})
-submission.to_csv("Submission/Submission_HGB.csv", index=False)
+submission.to_csv("Submission/Submission_HGB_01.csv", index=False)
 
 submission.head()
