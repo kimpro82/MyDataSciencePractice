@@ -7,11 +7,12 @@ https://www.kaggle.com/competitions/titanic
 
 ## \<List>
 
-- [[Titanic : HGB 1.1 (2022.07.28)](#version-2--hgb-2-20220728)
-- [[Titanic : HGB 1.0 (2022.07.27)](#version-1--hgb-20220727)
+- [Titanic : HGB 1.2 (2022.07.31)](#titanic--hgb-12-20220731)
+- [Titanic : HGB 1.1 (2022.07.28)](#titanic--hgb-11-20220728)
+- [Titanic : HGB 1.0 (2022.07.27)](#titanic--hgb-10-20220727)
 
 
-## [[Titanic : HGB 1.2 (2022.07.31)](#list)
+## [Titanic : HGB 1.2 (2022.07.31)](#list)
 
 - More advanced **HGB(Histogram-based Gradient Boosting)**
   - Convert `Pclass` as a categorical variable additionally
@@ -24,7 +25,7 @@ hgb = HistGradientBoostingClassifier(max_leaf_nodes=5, learning_rate=0.01, max_i
 ```
 
 
-## [[Titanic : HGB 1.1 (2022.07.28)](#list)
+## [Titanic : HGB 1.1 (2022.07.28)](#list)
 
 - **HGB(Histogram-based Gradient Boosting)** with some parameters' change  
   I set `max_iter=1000` in my dream last night …… omg
