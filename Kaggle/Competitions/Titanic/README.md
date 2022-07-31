@@ -16,22 +16,22 @@ https://www.kaggle.com/competitions/titanic
 
 - More advanced **HGB(Histogram-based Gradient Boosting)**
   - Convert `Pclass` as a categorical variable additionally
-```python
-df = pd.get_dummies(df, columns=["Pclass", "Embarked", "Sex"])
-```
+    ```python
+    df = pd.get_dummies(df, columns=["Pclass", "Embarked", "Sex"])
+    ```
   - change the parameter `max_iter` value from 1000 to 3000
-```python
-hgb = HistGradientBoostingClassifier(max_leaf_nodes=5, learning_rate=0.01, max_iter=3000, random_state=604)
-```
+    ```python
+    hgb = HistGradientBoostingClassifier(max_leaf_nodes=5, learning_rate=0.01, max_iter=3000, random_state=604)
+    ```
 
 
 ## [Titanic : HGB 1.1 (2022.07.28)](#list)
 
 - **HGB(Histogram-based Gradient Boosting)** with some parameters' change  
   I set `max_iter=1000` in my dream last night …… omg
-```python
-hgb = HistGradientBoostingClassifier(max_leaf_nodes=5, learning_rate=0.01, max_iter=1000, random_state=604)
-```
+    ```python
+    hgb = HistGradientBoostingClassifier(max_leaf_nodes=5, learning_rate=0.01, max_iter=1000, random_state=604)
+    ```
 - Scores
   - Test (in `train.csv`) : `0.8435754189944135`
   - Submission : `0.76555` (somewhat improved but I'm still thirsty!)
