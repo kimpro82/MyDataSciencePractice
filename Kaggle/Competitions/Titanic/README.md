@@ -23,7 +23,10 @@ https://www.kaggle.com/competitions/titanic
     ```python
     hgb = HistGradientBoostingClassifier(max_leaf_nodes=5, learning_rate=0.01, max_iter=3000, random_state=604)
     ```
-
+- Scores
+  - Test (in `train.csv`) : `0.8547486033519553`
+  - Submission : `0.74641` (rather stepped back??)
+- Kaggle Code : [HGB(Histogram-based Gradient Boosting) in Titanic (Version 1.21)](https://www.kaggle.com/code/kangrokkim/hgb-histogram-based-gradient-boosting-in-titanic?scriptVersionId=102157325)
 
 ## [Titanic : HGB 1.1 (2022.07.28)](#list)
 
@@ -35,7 +38,7 @@ https://www.kaggle.com/competitions/titanic
 - Scores
   - Test (in `train.csv`) : `0.8435754189944135`
   - Submission : `0.76555` (somewhat improved but I'm still thirsty!)
-- Kaggle Code : [HGB(Histogram-based Gradient Boosting) in Titanic (Version 2)](https://www.kaggle.com/code/kangrokkim/hgb-histogram-based-gradient-boosting-in-titanic/notebook?scriptVersionId=101936628)
+- Kaggle Code : [HGB(Histogram-based Gradient Boosting) in Titanic (Version 1.1)](https://www.kaggle.com/code/kangrokkim/hgb-histogram-based-gradient-boosting-in-titanic?scriptVersionId=101936628)
 
 
 ## [Titanic : HGB 1.0 (2022.07.27)](#list)
@@ -50,4 +53,4 @@ https://www.kaggle.com/competitions/titanic
   - Validation : `0.8217275682064414`
   - Test (in `train.csv`) : `0.8324022346368715`
   - Submission : `0.75598` (disappointed ……)
-- Kaggle Code : [HGB(Histogram-based Gradient Boosting) in Titanic (Version 1)](https://www.kaggle.com/code/kangrokkim/hgb-histogram-based-gradient-boosting-in-titanic?scriptVersionId=101897526)
+- Kaggle Code : [HGB(Histogram-based Gradient Boosting) in Titanic (Version 1.0)](https://www.kaggle.com/code/kangrokkim/hgb-histogram-based-gradient-boosting-in-titanic?scriptVersionId=101897526)
