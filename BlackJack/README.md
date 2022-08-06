@@ -12,8 +12,8 @@ The movie <21> has accidentally nspired me to dream the king of *Las Vegas*.
 
 ## [0. Generate Cards' Data (2022.08.06)](#list)
 
-- Why I choose **R** for doing it? Because …… I love `a:b` syntax for generating continuous integers.
-- After made `Cards.csv`, maybe it will be better to use **Python** for operating `GAN` and so on.
+- Why I chose **R** for doing it? Because …… I love `a:b` syntax for generating continuous integers.
+- After made `Cards.csv`, maybe it will be better to use **Python** for operating **GAN** and so on.
 
 #### `BlackJack_GenCards.r`
 
