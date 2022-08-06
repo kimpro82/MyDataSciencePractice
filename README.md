@@ -3,7 +3,7 @@
 Kaggle than Gargle
 
 
-## Kaggle > Competitions
+## [Kaggle > Competitions](/Kaggle/Competitions)
 
 https://www.kaggle.com/
 
@@ -13,6 +13,6 @@ https://www.kaggle.com/
   - [Titanic : HGB 1.0 (2022.07.27)](Kaggle/Competitions/Titanic#titanic--hgb-10-20220727)
 
 
-## Black Jack
+## [Black Jack](/BlackJack)
 
 - [0. Generate Cards' Data (2022.08.06)](BlackJack#0-generate-cards-data-20220806)
