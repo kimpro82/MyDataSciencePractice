@@ -2,12 +2,12 @@
 
 ![21](Images/21.jpg)
 
-The movie <21> have accidentally nspired me to dream the king of *Las Vegas*.
+The movie <21> has accidentally nspired me to dream the king of *Las Vegas*.
 
 
 ## \<List>
 
-- [0. Generate Cards' Data](#)
+- [0. Generate Cards' Data](#0-generate-cards-data-20220806)
 
 
 ## [0. Generate Cards' Data (2022.08.06)](#list)
