@@ -15,4 +15,4 @@ https://www.kaggle.com/
 
 ## Black Jack
 
-- [0. Generate Cards' Data](BlackJack#0-generate-cards-data-20220806)
+- [0. Generate Cards' Data (2022.08.06)](BlackJack#0-generate-cards-data-20220806)
