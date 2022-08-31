@@ -8,6 +8,45 @@ The movie <21>(2008) has accidentally nspired me to dream the king of *Las Vegas
 ## \<List>
 
 - [0. Generate Cards' Data (2022.08.06)](#0-generate-cards-data-20220806)
+- [1.0 Generate the Entire Initial Cases (2022.08.16)](#)
+
+
+## [1.0 Generate the Entire Initial Cases (2022.08.16)](#list)
+
+- I tried generating the initial cases that each of the player and dealer has 2 cards respectively.
+- But the number of cases are over 6 million …… and the data size is about 200 Mb. It may seem not so large, but I was going to adopt some additional data structure to calculate the probability table for each case, so I think it is needed to find more efficient data structure & algorithm …… For example, a *Monte Carlo simulation* with *recursive search*?
+
+#### `BlackJack.r`
+
+```r
+……
+
+# 1.1 Trial 1 : Generate the entire initial cases
+
+# loading gtools library
+if (!requireNamespace("gtools")) {
+  install.packages('gtools')
+}
+library(gtools)                                             # for using permutations() and combinations()
+
+cards <- read.csv("Cards.csv")
+nrow(cards)                                                 # 52
+
+init <- permutations(52, 4, v = cards[,1], repeats.allowed = FALSE)
+head(init)
+nrow(init)                                                  # 6,497,400 cases, 198.3 Mb
+```
+> [1] 52
+
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[,1]  [,2] [,3] [,4]  
+> [1,] "C10" "C2" "C3" "C4"  
+> [2,] "C10" "C2" "C3" "C5"  
+> [3,] "C10" "C2" "C3" "C6"  
+> [4,] "C10" "C2" "C3" "C7"  
+> [5,] "C10" "C2" "C3" "C8"  
+> [6,] "C10" "C2" "C3" "C9"  
+
+> [1] 6497400
 
 
 ## [0. Generate Cards' Data (2022.08.06)](#list)
@@ -15,7 +54,7 @@ The movie <21>(2008) has accidentally nspired me to dream the king of *Las Vegas
 - Why I chose **R** for doing it? Because …… I love `a:b` syntax for generating continuous integers.
 - After made `Cards.csv`, maybe it will be better to use **Python** for operating **GAN** and so on.
 
-#### `BlackJack_GenCards.r`
+#### `BlackJack.r`
 
 ```r
 # 0.1 Make as a vector

@@ -47,10 +47,12 @@ write.csv(cards2d, "Cards.csv", row.names = FALSE)
 
 
 
-# 1. Set Initial Cards
+# 1 Set Initial Cards
 
 # 2022.08.16
 
+
+# 1.1 Trial 1 : Generate the entire initial cases
 
 # loading gtools library
 if (!requireNamespace("gtools")) {
