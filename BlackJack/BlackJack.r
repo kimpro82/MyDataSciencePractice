@@ -1,6 +1,7 @@
 # Black Jack Simulation
 
 
+
 # 0. Generate a Deck
 
 # 2022.08.06
@@ -43,3 +44,23 @@ cards2d <- data.frame(cards, points)
 # 0.3 Export to .csv
 
 write.csv(cards2d, "Cards.csv", row.names = FALSE)
+
+
+
+# 1. Set Initial Cards
+
+# 2022.08.16
+
+
+# loading gtools library
+if (!requireNamespace("gtools")) {
+  install.packages('gtools')
+}
+library(gtools)                                             # for using permutations() and combinations()
+
+cards <- read.csv("Cards.csv")
+nrow(cards)                                                 # 52
+
+init <- permutations(52, 4, v = cards[,1], repeats.allowed = FALSE)
+head(init)
+nrow(init)                                                  # 6,497,400 cases, 198.3 Mb
