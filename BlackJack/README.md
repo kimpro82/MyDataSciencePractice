@@ -7,11 +7,11 @@ The movie <21>(2008) has accidentally nspired me to dream the king of *Las Vegas
 
 ## \<List>
 
-- [1.0 Generate the Entire Initial Cases (2022.08.16)](#10-generate-the-entire-initial-cases-20220816)
+- [1.1 Generate the Entire Initial Cases (2022.08.16)](#11-generate-the-entire-initial-cases-20220816)
 - [0. Generate Cards' Data (2022.08.06)](#0-generate-cards-data-20220806)
 
 
-## [1.0 Generate the Entire Initial Cases (2022.08.16)](#list)
+## [1.1 Generate the Entire Initial Cases (2022.08.16)](#list)
 
 - I tried generating the initial cases that each of the player and dealer has 2 cards respectively.
 - But the number of cases are over 6 million …… and the data size is about 200 Mb. It may seem not so large, but I was going to adopt some additional data structure to calculate the probability table for each case, so I think it is needed to find more efficient data structure & algorithm …… For example, a *Monte Carlo simulation* with *recursive search*?
