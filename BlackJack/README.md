@@ -7,8 +7,8 @@ The movie <21>(2008) has accidentally nspired me to dream the king of *Las Vegas
 
 ## \<List>
 
+- [1.0 Generate the Entire Initial Cases (2022.08.16)](#10-generate-the-entire-initial-cases-20220816)
 - [0. Generate Cards' Data (2022.08.06)](#0-generate-cards-data-20220806)
-- [1.0 Generate the Entire Initial Cases (2022.08.16)](#)
 
 
 ## [1.0 Generate the Entire Initial Cases (2022.08.16)](#list)
