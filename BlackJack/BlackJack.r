@@ -47,7 +47,7 @@ write.csv(cards2d, "Cards.csv", row.names = FALSE)
 
 
 
-# 1 Set Initial Cards
+# 1. Set Initial Cards
 
 # 2022.08.16
 
