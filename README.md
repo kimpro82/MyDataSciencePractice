@@ -18,3 +18,8 @@ https://www.kaggle.com/
 - [1. Set Initial Cards](BlackJack#1-set-initial-cards)
     - [1.1 Trial 1 - Generate the Entire Initial Cases (2022.08.16)](BlackJack#11-trial-1---generate-the-entire-initial-cases-20220816)
 - [0. Generate Cards' Data (2022.08.06)](BlackJack#0-generate-cards-data-20220806)
+
+
+## [Others](/Others/)
+
+- [제5회 빅데이터분석기사 실기 (2022.12.03) / 필답형 9번](./Others/README.md#제5회-빅데이터분석기사-실기-20221203--필답형-9번)
