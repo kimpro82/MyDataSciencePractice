@@ -1,11 +1,9 @@
 # My AI Practice
 
-Kaggle than Gargle
+[Kaggle](https://www.kaggle.com/) than Gargle
 
 
 ## [Kaggle > Competitions](/Kaggle/Competitions)
-
-https://www.kaggle.com/
 
 - [Titanic](Kaggle/Competitions/Titanic#kaggle--competitions)
   - [Titanic : HGB 1.2 (2022.07.31)](Kaggle/Competitions/Titanic#titanic--hgb-12-20220731)
@@ -13,11 +11,13 @@ https://www.kaggle.com/
   - [Titanic : HGB 1.0 (2022.07.27)](Kaggle/Competitions/Titanic#titanic--hgb-10-20220727)
 
 
-## [Black Jack](/BlackJack)
+## [Analysis](/Kaggle/Analysis/)
 
-- [1. Set Initial Cards](BlackJack#1-set-initial-cards)
-    - [1.1 Trial 1 - Generate the Entire Initial Cases (2022.08.16)](BlackJack#11-trial-1---generate-the-entire-initial-cases-20220816)
-- [0. Generate Cards' Data (2022.08.06)](BlackJack#0-generate-cards-data-20220806)
+  - [Decision Tree Regression with *Used Car Prices* in R (2022.12.07)](./Kaggle/Analysis/CarPrice/)
+  - [Black Jack](/BlackJack)
+    - [0. Generate Cards' Data (2022.08.06)](BlackJack#0-generate-cards-data-20220806)
+    - [1. Set Initial Cards](BlackJack#1-set-initial-cards)
+      - [1.1 Trial 1 - Generate the Entire Initial Cases (2022.08.16)](BlackJack#11-trial-1---generate-the-entire-initial-cases-20220816)
 
 
 ## [Others](/Others/)
