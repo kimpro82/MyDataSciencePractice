@@ -132,7 +132,7 @@ windows(width=12, height=13)                                                    
 par(mfrow=c(3,3))
 
 plotcp(model)
-plotcp(model3)
+plotcp(model2)
 plotcp(model3)
 
 plot(model, compress = TRUE)
