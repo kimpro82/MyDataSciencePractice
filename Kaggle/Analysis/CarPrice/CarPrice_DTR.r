@@ -111,7 +111,7 @@ model3 <- rpart(x_train$price ~ ., data = x_train, cp = 0.001)
 plot(model3, compress = TRUE)
 text(model3, use.n = TRUE)
 
-# model3$cptable                                                                # skip because it has even 44 lines
+model3$cptable                                                                # skip because it has even 44 lines
 plotcp(model3)
 
 
@@ -128,8 +128,17 @@ summary(pred3); cor(pred3, y_test$price); sqrt(mean((pred3 - y_test$price)^2))
 # Model 3 is not overfitting yet!
 
 
-windows(width=12, height=4.5)                                                   # not suitable with kaggle platform
-par(mfrow=c(1,3))
+windows(width=12, height=13)                                                    # not suitable with kaggle platform
+par(mfrow=c(3,3))
+
+plotcp(model)
+plotcp(model3)
+plotcp(model3)
+
+plot(model, compress = TRUE)
+plot(model2, compress = TRUE)
+plot(model3, compress = TRUE)
+
 plot(y_test$price, pred1)
 abline(0, 1, col = "red")
 plot(y_test$price, pred2)
