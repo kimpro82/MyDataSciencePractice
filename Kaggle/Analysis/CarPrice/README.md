@@ -14,8 +14,8 @@ https://www.kaggle.com/datasets/kukuroo3/used-car-price-dataset-competition-form
   - Remove 3 variables : `carID` `brand` `model`
 
 - Model fitting : Use `rpart` library in R and try Decision Tree Regression
-  - At the 1st trial, there's no point for `xerror` to rise up again, but I feel I should do something …… (:crazy:)
-  - But at the 2nd trial, it shows rather worse performance. (:sad:)
+  - At the 1st trial, there's no point for `xerror` to rise up again, but I feel I should do something …… (:scream:)
+  - But at the 2nd trial, it shows rather worse performance. (:sob:)
 
 - Compare 3 models with different **CP(Complexity Parameter)** values
   | models | cp | nsplit | min_xerror | correlation | rmse |
