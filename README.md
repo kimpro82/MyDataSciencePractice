@@ -13,6 +13,8 @@
 
 ## [Analysis](/Kaggle/Analysis/)
 
+  They are included in this category, where they belong to *Kaggle* but are not related with competitions.
+
   - [Decision Tree Regression with *Used Car Prices* in R (2022.12.07)](./Kaggle/Analysis/CarPrice/)
   - [Black Jack](/BlackJack)
     - [0. Generate Cards' Data (2022.08.06)](BlackJack#0-generate-cards-data-20220806)
