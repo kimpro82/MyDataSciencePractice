@@ -17,9 +17,9 @@
 
   - [Decision Tree Regression with *Used Car Prices* in R (2022.12.07)](./Kaggle/Analysis/CarPrice/)
   - [Black Jack](/BlackJack)
-    - [0. Generate Cards' Data (2022.08.06)](BlackJack#0-generate-cards-data-20220806)
     - [1. Set Initial Cards](BlackJack#1-set-initial-cards)
       - [1.1 Trial 1 - Generate the Entire Initial Cases (2022.08.16)](BlackJack#11-trial-1---generate-the-entire-initial-cases-20220816)
+    - [0. Generate Cards' Data (2022.08.06)](BlackJack#0-generate-cards-data-20220806)
 
 
 ## [Others](/Others/)
