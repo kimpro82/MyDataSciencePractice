@@ -40,6 +40,8 @@
   print(round(as.numeric(ttest[1]), 2))                       # t-statistic = -5.09
   print(round(as.numeric(ttest[3]), 4))                       # p-value = 0.0011 < 0.05
   print("채택")
+
+  detach(a)
   ```
   ```
   [1] -5.09
