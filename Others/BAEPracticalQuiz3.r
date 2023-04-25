@@ -22,12 +22,12 @@ sample_mean = mean(bp_after - bp_before)
 ans_a = round(sample_mean, 2)
 
 # (b)
-ttest = t.test(bp_after - bp_before, mu = 0, var.equal=TRUE)
-# print(ttest)
-ans_b = round(as.numeric(ttest[1]), 2)
+result = t.test(bp_after - bp_before, mu = 0, var.equal=TRUE)
+# print(result)
+ans_b = round(as.numeric(result[1]), 2)
 
 # (c)
-ans_c1 = round(as.numeric(ttest[3]), 4)
+ans_c1 = round(as.numeric(result[3]), 4)
 if (ans_c1 < 0.05) {
 	ans_c2 = "채택"
 } else {
