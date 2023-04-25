@@ -29,17 +29,27 @@
 
   # (a)
   sample_mean = mean(bp_after - bp_before)
+  ans_a = round(sample_mean, 2)
 
-  # (b), (c)
+  # (b)
   ttest = t.test(bp_after - bp_before, mu = 0, var.equal=TRUE)
   # print(ttest)
+  ans_b = round(as.numeric(ttest[1]), 2)
+
+  # (c)
+  ans_c1 = round(as.numeric(ttest[3]), 4)
+  if (ans_c1 < 0.05) {
+    ans_c2 = "채택"
+  } else {
+    ans_c2 = "기각"
+  }
 
   # 답안 제출 예시
   # print(변수명)
-  print(round(sample_mean, 2))                                # t-statistic = -5.09
-  print(round(as.numeric(ttest[1]), 2))                       # t-statistic = -5.09
-  print(round(as.numeric(ttest[3]), 4))                       # p-value = 0.0011 < 0.05
-  print("채택")
+  print(ans_a)                                                # -5.09
+  print(ans_b)                                                # t-statistic = -3.34
+  print(ans_c1)                                               # p-value = 0.0011 < 0.05
+  print(ans_c2)                                               # 채택
 
   detach(a)
   ```
