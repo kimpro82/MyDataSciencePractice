@@ -32,7 +32,7 @@
   ans_a = round(sample_mean, 2)
 
   # (b)
-  result = t.test(bp_after - bp_before, mu = 0, var.equal=TRUE)
+  result = t.test(bp_after - bp_before, mu = 0, var.equal = TRUE)
   # print(result)
   ans_b = round(as.numeric(result[1]), 2)
 
