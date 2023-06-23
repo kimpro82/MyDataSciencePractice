@@ -105,9 +105,9 @@
   # (c)
   ans_c1 = round(as.numeric(result[3]), 4)
   if (ans_c1 < 0.05) {
-    ans_c2 = "채택"
-  } else {
     ans_c2 = "기각"
+  } else {
+    ans_c2 = "채택"
   }
 
   # 답안 제출 예시
@@ -115,7 +115,7 @@
   print(ans_a)                                                # -5.09
   print(ans_b)                                                # t-statistic = -3.34
   print(ans_c1)                                               # p-value = 0.0011 < 0.05
-  print(ans_c2)                                               # 채택
+  print(ans_c2)                                               # 기각
 
   detach(a)
   ```
@@ -127,7 +127,7 @@
   [1] -5.09
   [1] -3.34
   [1] 0.0011
-  [1] "채택"
+  [1] "기각"
   ```
   </details>
 
