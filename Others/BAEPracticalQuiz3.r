@@ -9,7 +9,7 @@
 # 파일 경로 상 내부 드라이브 경로(C: 등) 접근 불가
 
 # 데이터 파일 읽기 예제
-a <- read.csv("Data/blood_pressure.csv", header=TRUE)
+a <- read.csv("data/blood_pressure.csv", header=TRUE)
 
 # 사용자 코딩
 # str(a)
