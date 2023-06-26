@@ -23,7 +23,7 @@ library(caret)
 # print(str(X_train))
 # print(str(y_train))
 # print(str(X_test))
-print(summary(X_train))
+# print(summary(X_train))
 # print(summary(y_train))
 # table(y_train[2])
 
@@ -46,7 +46,7 @@ X_valid <- X_train[-idx, -1]
 y_valid <- y_train[-idx, 2]
 
 # print(str(X_train_new))
-print(summary(X_train_new))
+# print(summary(X_train_new))
 # print(str(y_train_new))
 
 

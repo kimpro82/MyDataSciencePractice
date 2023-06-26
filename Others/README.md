@@ -3,6 +3,7 @@
 ### \<List>
 
   - [빅데이터분석기사(실기) / 예시문제 : 작업형 제1유형 (2023.06.23)](#빅데이터분석기사실기--예시문제--작업형-제1유형-20230623)
+  - [빅데이터분석기사(실기) / 예시문제 : 작업형 제2유형 (2023.06.23)](#빅데이터분석기사실기--예시문제--작업형-제2유형-20230623)
   - [빅데이터분석기사(실기) / 예시문제 : 작업형 제3유형 (신유형, 2023.04.25)](#빅데이터분석기사실기--예시문제--작업형-제3유형-신유형-20230425)
   - [빅데이터분석기사(실기) / 제5회 : 필답형 9번 (2022.12.03)](#빅데이터분석기사실기--제5회--필답형-9번-20221203)
 
@@ -67,6 +68,175 @@
   ```txt
   [1] 9
   ```
+  </details>
+
+
+## [빅데이터분석기사(실기) / 예시문제 : 작업형 제2유형 (2023.06.23)](#list)
+
+- 예시문제 ☞ https://dataq.goorm.io/exam/116674/체험하기/quiz/2
+
+  <details>
+    <summary>Codes : BAEPracticalQuiz2.r</summary>
+
+  ```r
+  # 출력을 원할 경우 print() 함수 활용
+  # 예시) print(df.head())
+
+  # setwd(), getwd() 등 작업 폴더 설정 불필요
+  # 파일 경로 상 내부 드라이브 경로(C: 등) 접근 불가
+
+  X_test = read.csv('data/X_test.csv') 
+  X_train = read.csv('data/X_train.csv') 
+  y_train = read.csv('data/y_train.csv')
+  ```
+  ```r
+  # 사용자 코딩
+  library(rpart)
+  library(caret)
+  ```
+  ```r
+  # 1. Data Skimming
+
+  # print(str(X_train))
+  # print(str(y_train))
+  # print(str(X_test))
+  # print(summary(X_train))
+  # print(summary(y_train))
+  # table(y_train[2])
+  ```
+  ```r
+  # 2. Data Pre-processing
+
+  # print(head(X_train[order(X_train$총구매액, decreasing=T),]))                      # don't remove outliers in 최대구매액
+  # print(head(X_train[is.na(X_train$환불금액),]))                                    # remove or replace as 0 when 환불금액 == 0?
+  X_train[is.na(X_train$환불금액),]$환불금액 <- 0                                         # replace as 0
+  # print(summary(X_train))
+
+  # print(help(sample))
+  n <- nrow(X_train)
+  set.seed(230623)
+  idx <- sample(n, n * 0.7, replace=F)
+
+  X_train_new <- X_train[idx, -1]                                                 # remove cust_id
+  y_train_new <- y_train[idx, 2]
+  X_valid <- X_train[-idx, -1]
+  y_valid <- y_train[-idx, 2]
+
+  # print(str(X_train_new))
+  # print(summary(X_train_new))
+  # print(str(y_train_new))
+  ```
+  ```r
+  # 3. Model Fitting
+
+  # print(summary(train_new[, 1]))                                                # idx doesn't start from 0!
+  model <- rpart(y_train_new ~ ., data = X_train_new, method = "class", cp = 0.023)
+  printcp(model)
+  ```
+  ```r
+  # 4. Validation
+
+  pred <- predict(model, newdata = X_valid, method = "class")
+  pred_new <- pred[, 2]
+  # print(summary(pred))
+  # print(summary(pred_new))
+  pred_new[pred_new>=0.5] <- 1
+  pred_new[pred_new<0.5] <- 0
+  print(summary(pred_new))
+  print(summary(y_valid))
+
+  print(cor(pred[, 2], y_valid))                                                  # 0.2347942
+  print(cor(pred_new, y_valid))                                                   # 0.2313989
+  # print(table(pred_new, y_valid))
+  # pred_new   0   1
+  #        0 463 176
+  #        1 204 207
+  # Seems not good
+  print(confusionMatrix(table(pred_new, y_valid)))
+  #            Accuracy : 0.6381
+  #              95% CI : (0.6082, 0.6672)
+  # No Information Rate : 0.6352
+  # P-Value [Acc > NIR] : 0.4374
+  ```
+  ```r
+  # 5. Submission
+
+  # 답안 제출 참고
+  # 아래 코드 변수명과 수험번호를 개인별로 변경하여 활용
+  # write.csv(변수명,'003000000.csv',row.names=F) 
+  pred2 <- predict(model, newdata = X_test, method = "class")
+  ans <- data.frame(X_test[, 1], pred2[, 2])
+  colnames(ans) <- c("custid", "gender")
+  print(head(ans))
+  # print(summary(ans))
+  write.csv(ans,'data/003000000.csv',row.names=F)
+  ```
+  </details>
+  <details open="">
+    <summary>Output</summary>
+
+  ```txt
+  Classification tree:
+  rpart(formula = y_train_new ~ ., data = X_train_new, method = "class",
+      cp = 0.023)
+
+  Variables actually used in tree construction:
+  [1] 내점일수   주구매상품
+
+  Root node error: 933/2450 = 0.38082
+
+  n= 2450
+
+          CP nsplit rel error  xerror     xstd
+  1 0.057342      0   1.00000 1.00000 0.025761
+  2 0.023000      2   0.88532 0.94212 0.025446
+    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  0.0000  0.0000  0.0000  0.3914  1.0000  1.0000
+    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+  0.0000  0.0000  0.0000  0.3648  1.0000  1.0000
+  ```
+  ```txt
+  [1] 0.2347942
+  [1] 0.2313989
+  ```
+  It seems not good
+  ```txt
+  Confusion Matrix and Statistics
+
+          y_valid
+  pred_new   0   1
+        0 463 176
+        1 204 207
+
+                Accuracy : 0.6381
+                  95% CI : (0.6082, 0.6672)
+      No Information Rate : 0.6352
+      P-Value [Acc > NIR] : 0.4374
+
+                    Kappa : 0.231
+
+  Mcnemar's Test P-Value : 0.1660
+
+              Sensitivity : 0.6942
+              Specificity : 0.5405
+          Pos Pred Value : 0.7246
+          Neg Pred Value : 0.5036
+              Prevalence : 0.6352
+          Detection Rate : 0.4410
+    Detection Prevalence : 0.6086
+        Balanced Accuracy : 0.6173
+
+        'Positive' Class : 0
+  ```
+  Not quite there yet, but better.
+  ```txt
+    custid    gender
+  1   3500 0.3144928
+  2   3501 0.2298137
+  3   3502 0.3144928
+  4   3503 0.5560209
+  ```
+  Anyway, it meets the submission format.
   </details>
 
 
