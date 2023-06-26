@@ -25,8 +25,8 @@
 
   # 데이터 파일 읽기 예제
   a <- read.csv("data/mtcars.csv", header=TRUE)
-
-
+  ```
+  ```r
   # 사용자 코딩
 
   # print(head(a))                                            # need to wrap with print()
@@ -42,8 +42,8 @@
   qsec_over_median <-qsec_cvt[qsec_cvt>0.5]
   print(qsec_over_median)
   ans = length(qsec_over_median)
-
-
+  ```
+  ```r
   # 답안 제출 예시
   # print(변수명)
 
