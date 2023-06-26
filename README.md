@@ -1,6 +1,6 @@
 # My AI Practice
 
-[Kaggle](https://www.kaggle.com/) than Gargle
+[Kaggle](https://www.kaggle.com/kangrokkim) than Gargle
 
 
 ## [Kaggle > Competitions](/Kaggle/Competitions)
