@@ -15,7 +15,7 @@
 
   They are included in this category, where they belong to *Kaggle* but are not related with competitions.
 
-  - [Trends of F1 Score with Changes in Precision and Recall (2023.06.25)](./Kaggle/Analysis/F1Score/)
+  - [Trends of *F1 Score* with Changes in Precision and Recall (2023.06.25)](./Kaggle/Analysis/F1Score/)
   - [Decision Tree Regression with *Used Car Prices* in R (2022.12.07)](./Kaggle/Analysis/CarPrice/)
   - [Black Jack](./Kaggle/Analysis/BlackJack/)
     - [1. Set Initial Cards](./Kaggle/AnalysisBlackJack/README.md#1-set-initial-cards)

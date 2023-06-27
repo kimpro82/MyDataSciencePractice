@@ -1,9 +1,9 @@
 ### [Kaggle > Notebook](/README.md#analysis)
 
-# Trends of F1 Score with Changes in Precision and Recall
+# Trends of *F1 Score* with Changes in Precision and Recall
 
 - 2023.06.25
-- [Kaggle Notebook : F1 Score Changes with Precision and Recall](https://www.kaggle.com/code/kangrokkim/f1-score-changes-with-precision-and-recall)
+- [Kaggle Notebook : *F1 Score* Changes with Precision and Recall](https://www.kaggle.com/code/kangrokkim/f1-score-changes-with-precision-and-recall)
 - Almost written by *ChatGPT*
 
   <details open="">
