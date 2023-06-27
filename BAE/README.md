@@ -256,7 +256,8 @@
 
   # 데이터 파일 읽기 예제
   a <- read.csv("data/blood_pressure.csv", header=TRUE)
-
+  ```
+  ```r
   # 사용자 코딩
   # str(a)
   # summary(a)
@@ -279,7 +280,8 @@
   } else {
     ans_c2 = "채택"
   }
-
+  ```
+  ```r
   # 답안 제출 예시
   # print(변수명)
   print(ans_a)                                                # -5.09
@@ -305,7 +307,6 @@
 ## [실기 / 제5회 : 필답형 9번 (2022.12.03)](#list)
 
 - 가답안 전체 공유 ☞ [5회 실기(2022.12.03) 필답형 가답안 공유 (Kaggle Discussion)](https://www.kaggle.com/datasets/agileteam/bigdatacertificationkr/discussion/370155)
-
 - 문제 : 표준정규분포의 (-a, a) 구간은 99.7%? (☞ [Kaggle Discussion Comment](https://www.kaggle.com/datasets/agileteam/bigdatacertificationkr/discussion/370155#2055310))
 
   <details open="">
