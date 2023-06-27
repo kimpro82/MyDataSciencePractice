@@ -3,7 +3,7 @@
 [Kaggle](https://www.kaggle.com/kangrokkim) than Gargle
 
 
-## [Kaggle > Competitions](/Kaggle/Competitions)
+## [Competitions](/Kaggle/Competitions)
 
 - [Titanic](Kaggle/Competitions/Titanic/)
   - [Titanic : HGB 1.2 (2022.07.31)](Kaggle/Competitions/Titanic/README.md#titanic--hgb-12-20220731)
