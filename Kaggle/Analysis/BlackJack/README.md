@@ -1,4 +1,6 @@
-## My Black Jack Project
+### [Kaggle > Notebook](/README.md#analysis)
+
+# My Black Jack Project
 
 ![21](Images/21.jpg)
 
