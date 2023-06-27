@@ -5,10 +5,10 @@
 
 ## [Kaggle > Competitions](/Kaggle/Competitions)
 
-- [Titanic](Kaggle/Competitions/Titanic#kaggle--competitions)
-  - [Titanic : HGB 1.2 (2022.07.31)](Kaggle/Competitions/Titanic#titanic--hgb-12-20220731)
-  - [Titanic : HGB 1.1 (2022.07.28)](Kaggle/Competitions/Titanic#titanic--hgb-11-20220728)
-  - [Titanic : HGB 1.0 (2022.07.27)](Kaggle/Competitions/Titanic#titanic--hgb-10-20220727)
+- [Titanic](Kaggle/Competitions/Titanic/)
+  - [Titanic : HGB 1.2 (2022.07.31)](Kaggle/Competitions/Titanic/README.md#titanic--hgb-12-20220731)
+  - [Titanic : HGB 1.1 (2022.07.28)](Kaggle/Competitions/Titanic/README.md#titanic--hgb-11-20220728)
+  - [Titanic : HGB 1.0 (2022.07.27)](Kaggle/Competitions/Titanic/README.md#titanic--hgb-10-20220727)
 
 
 ## [Analysis](/Kaggle/Analysis/)
@@ -17,10 +17,10 @@
 
   - [Trends of F1 Score with Changes in Precision and Recall (2023.06.25)](./Kaggle/Analysis/F1Score/)
   - [Decision Tree Regression with *Used Car Prices* in R (2022.12.07)](./Kaggle/Analysis/CarPrice/)
-  - [Black Jack](/BlackJack)
-    - [1. Set Initial Cards](BlackJack#1-set-initial-cards)
-      - [1.1 Trial 1 - Generate the Entire Initial Cases (2022.08.16)](BlackJack#11-trial-1---generate-the-entire-initial-cases-20220816)
-    - [0. Generate Cards' Data (2022.08.06)](BlackJack#0-generate-cards-data-20220806)
+  - [Black Jack](./Kaggle/Analysis/BlackJack/)
+    - [1. Set Initial Cards](./Kaggle/AnalysisBlackJack/README.md#1-set-initial-cards)
+      - [1.1 Trial 1 - Generate the Entire Initial Cases (2022.08.16)](./Kaggle/Analysis/BlackJack/README.md#11-trial-1---generate-the-entire-initial-cases-20220816)
+    - [0. Generate Cards' Data (2022.08.06)](./Kaggle/Analysis/BlackJack/README.md#0-generate-cards-data-20220806)
 
 
 ## [빅데이터분석기사](/BAE/)
