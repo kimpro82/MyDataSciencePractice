@@ -18,7 +18,7 @@
   - [Trends of *F1 Score* with Changes in Precision and Recall (2023.06.25)](./Kaggle/Analysis/F1Score/)
   - [Decision Tree Regression with *Used Car Prices* in R (2022.12.07)](./Kaggle/Analysis/CarPrice/)
   - [Black Jack](./Kaggle/Analysis/BlackJack/)
-    - [1. Set Initial Cards](./Kaggle/AnalysisBlackJack/README.md#1-set-initial-cards)
+    - [1. Set Initial Cards](./Kaggle/Analysis/BlackJack/README.md#1-set-initial-cards)
       - [1.1 Trial 1 - Generate the Entire Initial Cases (2022.08.16)](./Kaggle/Analysis/BlackJack/README.md#11-trial-1---generate-the-entire-initial-cases-20220816)
     - [0. Generate Cards' Data (2022.08.06)](./Kaggle/Analysis/BlackJack/README.md#0-generate-cards-data-20220806)
 
