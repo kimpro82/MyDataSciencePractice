@@ -15,6 +15,7 @@
 
   They are included in this category, where they belong to *Kaggle* but are not related with competitions.
 
+  - [Data Splitting Practice in R (2023.08.05)](./Kaggle/Analysis/DataSplitting/)
   - [Trends of *F1 Score* with Changes in Precision and Recall (2023.06.25)](./Kaggle/Analysis/F1Score/)
   - [Decision Tree Regression with *Used Car Prices* in R (2022.12.07)](./Kaggle/Analysis/CarPrice/)
   - [Black Jack](./Kaggle/Analysis/BlackJack/)
