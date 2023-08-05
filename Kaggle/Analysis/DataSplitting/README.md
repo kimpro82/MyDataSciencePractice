@@ -12,7 +12,6 @@
 
   - caret 패키지 로드
     ```r
-    # caret 패키지 로드
     library(caret)
     ```
 
