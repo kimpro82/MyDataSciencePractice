@@ -28,7 +28,7 @@ createFolds(oilType, 3, returnTrain = TRUE)
 
 createTimeSlices(1:9, 5, 3, fixedWindow = TRUE)             # 1부터 9까지의 값으로 5개의 시계열 분할 생성
 createTimeSlices(1:9, 5, 3, fixedWindow = FALSE)
-createTimeSlices(1:9, 5, 3)                                 # fixedWindow : FALSE (기본값)
+createTimeSlices(1:9, 5, 3)                                 # fixedWindow : TRUE (기본값)
 
 createTimeSlices(1:15, 5, 3, skip = 2)                      # 1부터 15까지의 값으로 5개의 시계열 분할 생성하며, 2번째 값을 스킵
 createTimeSlices(1:15, 5, 3, skip = 3)
