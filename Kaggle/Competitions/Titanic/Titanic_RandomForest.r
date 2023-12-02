@@ -150,9 +150,9 @@ head(submission.sample)
 summary(submission.sample)
 
 # Save a submission file
-write.csv(submission.sample, file = "./Submission/Titanic_RandomForest.csv", row.names = FALSE)
+write.csv(submission.sample, file = "./Submission/Submission_RandomForest.csv", row.names = FALSE)
 
 # No problem?
-submission <- read.csv("./Submission/Titanic_RandomForest.csv")
+submission <- read.csv("./Submission/Submission_RandomForest.csv")
 head(submission)
 str(submission)
