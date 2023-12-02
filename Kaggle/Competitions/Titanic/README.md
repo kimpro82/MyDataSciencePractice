@@ -31,6 +31,7 @@ https://www.kaggle.com/competitions/titanic
   - Test (`train.csv`) : `0.8379888`
   - Submission : `0.76794`
 - Kaggle Code : [Random Forest in Titanic (Version 6)](https://www.kaggle.com/code/kangrokkim/random-forest-in-titanic?scriptVersionId=153351599)
+  - `Titanic_RandomForest.r` is executable in a local environment
 
 
 ## [Titanic / Python : HGB 1.2 (2022.07.31)](#list)
