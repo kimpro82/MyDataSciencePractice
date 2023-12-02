@@ -8,15 +8,15 @@ https://www.kaggle.com/competitions/titanic
 
 ## \<List>
 
-- [Titanic : Random Forest (2023.12.02)](#titanic--random-forest-20231202)
-- [Titanic : HGB 1.2 (2022.07.31)](#titanic--hgb-12-20220731)
-- [Titanic : HGB 1.1 (2022.07.28)](#titanic--hgb-11-20220728)
-- [Titanic : HGB 1.0 (2022.07.27)](#titanic--hgb-10-20220727)
+- [Titanic / R : Random Forest (2023.12.02)](#titanic--r--random-forest-20231202)
+- [Titanic / Python : HGB 1.2 (2022.07.31)](#titanic--python--hgb-12-20220731)
+- [Titanic / Python : HGB 1.1 (2022.07.28)](#titanic--python--hgb-11-20220728)
+- [Titanic / Python : HGB 1.0 (2022.07.27)](#titanic--python--hgb-10-20220727)
 
 
-## [Titanic : Random Forest (2023.12.02)](#list)
+## [Titanic / R : Random Forest (2023.12.02)](#list)
 
-- 1st attempt to apply the **Random Forest** method
+- 1st attempt to apply the **Random Forest** method in **R**
   - Pre-processing : Performed *label encoding* for `Sex` `Embarked`
     ```r
     df$Sex <- as.numeric(factor(df$Sex), level=levels(df$Sex))
@@ -33,7 +33,7 @@ https://www.kaggle.com/competitions/titanic
 - Kaggle Code : [Random Forest in Titanic (Version 6)](https://www.kaggle.com/code/kangrokkim/random-forest-in-titanic?scriptVersionId=153351599)
 
 
-## [Titanic : HGB 1.2 (2022.07.31)](#list)
+## [Titanic / Python : HGB 1.2 (2022.07.31)](#list)
 
 - More advanced **HGB(Histogram-based Gradient Boosting)**
   - Convert `Pclass` as a categorical variable additionally
@@ -50,7 +50,7 @@ https://www.kaggle.com/competitions/titanic
 - Kaggle Code : [HGB(Histogram-based Gradient Boosting) in Titanic (Version 1.21)](https://www.kaggle.com/code/kangrokkim/hgb-histogram-based-gradient-boosting-in-titanic?scriptVersionId=102157325)
 
 
-## [Titanic : HGB 1.1 (2022.07.28)](#list)
+## [Titanic / Python : HGB 1.1 (2022.07.28)](#list)
 
 - **HGB(Histogram-based Gradient Boosting)** with some parameters' change  
   I set `max_iter=1000` in my dream last night …… omg
@@ -63,7 +63,7 @@ https://www.kaggle.com/competitions/titanic
 - Kaggle Code : [HGB(Histogram-based Gradient Boosting) in Titanic (Version 1.1)](https://www.kaggle.com/code/kangrokkim/hgb-histogram-based-gradient-boosting-in-titanic?scriptVersionId=101936628)
 
 
-## [Titanic : HGB 1.0 (2022.07.27)](#list)
+## [Titanic / Python : HGB 1.0 (2022.07.27)](#list)
 
 - **HGB(Histogram-based Gradient Boosting)** with default parameters
 - Use `HistGradientBoostingClassifier()` from `sklearn`
