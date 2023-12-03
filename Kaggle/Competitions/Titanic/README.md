@@ -27,7 +27,7 @@ https://www.kaggle.com/competitions/titanic
     md <- randomForest(Survived ~ ., data = df_train)
     pred <- predict(md, newdata = df_valid, type = "class")
     ```
-- Performance Scores (Accuracy) : Not so different from the previous trials wigh *HGB*
+- Performance Scores (Accuracy) : Not so different from the previous trials with *HGB*
   - Test (`train.csv`) : `0.8379888`
   - Submission : `0.76794`
 - Kaggle Code : [Random Forest in Titanic (Version 6)](https://www.kaggle.com/code/kangrokkim/random-forest-in-titanic?scriptVersionId=153351599)
@@ -46,7 +46,7 @@ https://www.kaggle.com/competitions/titanic
     hgb = HistGradientBoostingClassifier(max_leaf_nodes=5, learning_rate=0.01, max_iter=3000, random_state=604)
     ```
 - Performance Scores (Accuracy)
-  - Test (in `train.csv`) : `0.8547486033519553`
+  - Test (`train.csv`) : `0.8547486033519553`
   - Submission : `0.74641` (rather stepped back??)
 - Kaggle Code : [HGB(Histogram-based Gradient Boosting) in Titanic (Version 1.21)](https://www.kaggle.com/code/kangrokkim/hgb-histogram-based-gradient-boosting-in-titanic?scriptVersionId=102157325)
 
