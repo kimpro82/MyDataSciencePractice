@@ -5,7 +5,7 @@
 
 ## [Competitions](/Kaggle/Competitions)
 
-### Titanic
+### [Titanic](/Kaggle/Competitions/Titanic/)
 - [R : Random Forest (2023.12.02)](/Kaggle/Competitions/Titanic/README.md#r--random-forest-20231202)
 - [Python : HGB 1.2 (2022.07.31)](/Kaggle/Competitions/Titanic/README.md#python--hgb-12-20220731)
 - [Python : HGB 1.1 (2022.07.28)](/Kaggle/Competitions/Titanic/README.md#python--hgb-11-20220728)

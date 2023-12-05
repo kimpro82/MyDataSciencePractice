@@ -1,7 +1,7 @@
 ## [Kaggle > Competitions](/README.md#competitions)
 
 
-# Titanic - Machine Learning from Disaster
+# [Titanic - Machine Learning from Disaster](/README.md#titanic)
 
 https://www.kaggle.com/competitions/titanic
 
