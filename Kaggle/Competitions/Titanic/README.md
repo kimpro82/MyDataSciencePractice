@@ -8,13 +8,13 @@ https://www.kaggle.com/competitions/titanic
 
 ## \<List>
 
-- [Titanic / R : Random Forest (2023.12.02)](#titanic--r--random-forest-20231202)
-- [Titanic / Python : HGB 1.2 (2022.07.31)](#titanic--python--hgb-12-20220731)
-- [Titanic / Python : HGB 1.1 (2022.07.28)](#titanic--python--hgb-11-20220728)
-- [Titanic / Python : HGB 1.0 (2022.07.27)](#titanic--python--hgb-10-20220727)
+- [R : Random Forest (2023.12.02)](#r--random-forest-20231202)
+- [Python : HGB 1.2 (2022.07.31)](#python--hgb-12-20220731)
+- [Python : HGB 1.1 (2022.07.28)](#python--hgb-11-20220728)
+- [Python : HGB 1.0 (2022.07.27)](#python--hgb-10-20220727)
 
 
-## [Titanic / R : Random Forest (2023.12.02)](#list)
+## [R : Random Forest (2023.12.02)](#list)
 
 - 1st attempt to apply the **Random Forest** method in **R**
   - Pre-processing : Performed *label encoding* for `Sex` `Embarked`
@@ -34,7 +34,7 @@ https://www.kaggle.com/competitions/titanic
   - `Titanic_RandomForest.r` is executable in a local environment
 
 
-## [Titanic / Python : HGB 1.2 (2022.07.31)](#list)
+## [Python : HGB 1.2 (2022.07.31)](#list)
 
 - More advanced **HGB(Histogram-based Gradient Boosting)**
   - Convert `Pclass` as a categorical variable additionally
@@ -51,7 +51,7 @@ https://www.kaggle.com/competitions/titanic
 - Kaggle Code : [HGB(Histogram-based Gradient Boosting) in Titanic (Version 1.21)](https://www.kaggle.com/code/kangrokkim/hgb-histogram-based-gradient-boosting-in-titanic?scriptVersionId=102157325)
 
 
-## [Titanic / Python : HGB 1.1 (2022.07.28)](#list)
+## [Python : HGB 1.1 (2022.07.28)](#list)
 
 - **HGB(Histogram-based Gradient Boosting)** with some parameters' change  
   I set `max_iter=1000` in my dream last night …… omg
@@ -64,7 +64,7 @@ https://www.kaggle.com/competitions/titanic
 - Kaggle Code : [HGB(Histogram-based Gradient Boosting) in Titanic (Version 1.1)](https://www.kaggle.com/code/kangrokkim/hgb-histogram-based-gradient-boosting-in-titanic?scriptVersionId=101936628)
 
 
-## [Titanic / Python : HGB 1.0 (2022.07.27)](#list)
+## [Python : HGB 1.0 (2022.07.27)](#list)
 
 - **HGB(Histogram-based Gradient Boosting)** with default parameters
 - Use `HistGradientBoostingClassifier()` from `sklearn`

@@ -5,10 +5,11 @@
 
 ## [Competitions](/Kaggle/Competitions)
 
-- [Titanic / R : Random Forest (2023.12.02)](/Kaggle/Competitions/Titanic/README.md#titanic--r--random-forest-20231202)
-- [Titanic / Python : HGB 1.2 (2022.07.31)](/Kaggle/Competitions/Titanic/README.md#titanic--python--hgb-12-20220731)
-- [Titanic / Python : HGB 1.1 (2022.07.28)](/Kaggle/Competitions/Titanic/README.md#titanic--python--hgb-11-20220728)
-- [Titanic / Python : HGB 1.0 (2022.07.27)](/Kaggle/Competitions/Titanic/README.md#titanic--python--hgb-10-20220727)
+### Titanic
+- [R : Random Forest (2023.12.02)](/Kaggle/Competitions/Titanic/README.md#r--random-forest-20231202)
+- [Python : HGB 1.2 (2022.07.31)](/Kaggle/Competitions/Titanic/README.md#python--hgb-12-20220731)
+- [Python : HGB 1.1 (2022.07.28)](/Kaggle/Competitions/Titanic/README.md#python--hgb-11-20220728)
+- [Python : HGB 1.0 (2022.07.27)](/Kaggle/Competitions/Titanic/README.md#python--hgb-10-20220727)
 
 
 ## [Analysis](/Kaggle/Analysis/)
