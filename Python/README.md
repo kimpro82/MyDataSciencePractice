@@ -82,7 +82,7 @@ I'm sorry R …… I betrayed you.
   ☞ `random.seed()` affects just one time!
 
   <details>
-    <summary>Codes : RandomSeedInfluence.py</summary>
+    <summary>Code : RandomSeedInfluence.py</summary>
 
   ```python
   import random
@@ -146,7 +146,7 @@ I'm sorry R …… I betrayed you.
 - Adjusted 2020.01.04 : rearrange methods' order in `for` Loop for improving intuitive understanding
 
   <details>
-    <summary>Codes : SquareRoot.py</summary>
+    <summary>Code : SquareRoot.py</summary>
 
   ```python
   import random
@@ -273,7 +273,7 @@ I'm sorry R …… I betrayed you.
   > (1000, (25.987274047611137, 73.473315070409228))
   </details>
 
-  <details>
+  <details open="">
     <summary>Method 3. Generate one round and fill the lack</summary>
 
   ```python
