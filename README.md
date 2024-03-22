@@ -3,11 +3,23 @@
   This repository stores code related to statistics, data science, and artificial intelligence, which are relatively not traditional computer science domains.
 
 
+### \<List>
+
+- Kaggle
+  - [Competitions](#competitions)
+  - [Analysis](#analysis)
+- Programming Languages
+  - [R](#r)
+  - [Python](#python)
+- ETC
+  - [빅데이터분석기사](#빅데이터분석기사)
+
+
 ## [Competitions](/Kaggle/Competitions)
 
   [Kaggle](https://www.kaggle.com/kangrokkim) than Gargle!
 
-### [Titanic](/Kaggle/Competitions/Titanic/)
+  ### [Titanic](/Kaggle/Competitions/Titanic/)
 
   - [R : Random Forest (2023.12.02)](/Kaggle/Competitions/Titanic/README.md#r--random-forest-20231202)
   - [Python : HGB 1.2 (2022.07.31)](/Kaggle/Competitions/Titanic/README.md#python--hgb-12-20220731)
@@ -40,6 +52,14 @@
   - [Permutations and Combinations (2021.04.05)](/R/README.md#permutations-and-combinations-20210405)
   - [Generating Array and Variables by for Loop (2019.12.06)](/R/README.md#generating-array-and-variables-by-for-loop-20191206)
   - [Fibonacci Tornado (2017.05.07)](/R/README.md#fibonacci-tornado-20170507)
+
+
+## [Python](/Python/)
+
+  - [Shuffle List (2020.03.30)](/Python/README.md#shuffle-list-20200330)
+  - [Random Seed Influence (2020.01.05)](/Python/README.md#random-seed-influence-20200105)
+  - [Square Root (2020.01.01) (adjusted 2020.01.04)](/Python/README.md#square-root-20200101)
+  - [Limited Range Sampling (2019.09.22)](/Python/README.md#limited-range-sampling-20190922)
 
 
 ## [빅데이터분석기사](/BAE/)
