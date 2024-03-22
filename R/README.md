@@ -1,4 +1,4 @@
-# [My R Practice](../README.md#my-r-practice)
+# [My R Practice](../README.md#r)
 
 The true analysts use R, different from computer geeks using Python!
 
