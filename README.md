@@ -1,33 +1,35 @@
 # My AI Practice
 
-  This repository stores code related to statistics, data science, and artificial intelligence, which are relatively not traditional computer science domains.
+  This repository stores **code related to statistics, data science, and artificial intelligence**, which are relatively not traditional computer science domains.
 
 
 ### \<List>
 
-- Kaggle
+- [Kaggle](#kaggle)
   - [Competitions](#competitions)
   - [Analysis](#analysis)
-- Programming Languages
+- [Programming Languages](#programming-languages)
   - [R](#r)
   - [Python](#python)
-- ETC
+- [ETC](#etc)
   - [빅데이터분석기사](#빅데이터분석기사)
 
 
-## [Competitions](/Kaggle/Competitions)
+## [Kaggle](#list)
+
+
+### [Competitions](/Kaggle/Competitions)
 
   [Kaggle](https://www.kaggle.com/kangrokkim) than Gargle!
 
-  ### [Titanic](/Kaggle/Competitions/Titanic/)
+  - [Titanic](/Kaggle/Competitions/Titanic/)
+    - [R : Random Forest (2023.12.02)](/Kaggle/Competitions/Titanic/README.md#r--random-forest-20231202)
+    - [Python : HGB 1.2 (2022.07.31)](/Kaggle/Competitions/Titanic/README.md#python--hgb-12-20220731)
+    - [Python : HGB 1.1 (2022.07.28)](/Kaggle/Competitions/Titanic/README.md#python--hgb-11-20220728)
+    - [Python : HGB 1.0 (2022.07.27)](/Kaggle/Competitions/Titanic/README.md#python--hgb-10-20220727)
 
-  - [R : Random Forest (2023.12.02)](/Kaggle/Competitions/Titanic/README.md#r--random-forest-20231202)
-  - [Python : HGB 1.2 (2022.07.31)](/Kaggle/Competitions/Titanic/README.md#python--hgb-12-20220731)
-  - [Python : HGB 1.1 (2022.07.28)](/Kaggle/Competitions/Titanic/README.md#python--hgb-11-20220728)
-  - [Python : HGB 1.0 (2022.07.27)](/Kaggle/Competitions/Titanic/README.md#python--hgb-10-20220727)
 
-
-## [Analysis](/Kaggle/Analysis/)
+### [Analysis](/Kaggle/Analysis/)
 
   These belong to Kaggle but are not related to competitions.
 
@@ -40,7 +42,11 @@
     - [0. Generate Cards' Data (2022.08.06)](./Kaggle/Analysis/BlackJack/README.md#0-generate-cards-data-20220806)
 
 
-## [R](/R/)
+
+## [Programming Languages](#list)
+
+
+### [R](/R/)
 
   While not all R code is related to analysis, this repository stores all R code for convenience, regardless of its content.
 
@@ -54,7 +60,7 @@
   - [Fibonacci Tornado (2017.05.07)](/R/README.md#fibonacci-tornado-20170507)
 
 
-## [Python](/Python/)
+### [Python](/Python/)
 
   - [Shuffle List (2020.03.30)](/Python/README.md#shuffle-list-20200330)
   - [Random Seed Influence (2020.01.05)](/Python/README.md#random-seed-influence-20200105)
@@ -62,7 +68,11 @@
   - [Limited Range Sampling (2019.09.22)](/Python/README.md#limited-range-sampling-20190922)
 
 
-## [빅데이터분석기사](/BAE/)
+
+## [ETC](#list)
+
+
+### [빅데이터분석기사](/BAE/)
 
   - [실기 / 예시문제 : 작업형 제1유형 (2023.06.23)](./BAE/README.md#실기--예시문제--작업형-제1유형-20230623)
   - [실기 / 예시문제 : 작업형 제2유형 (2023.06.23)](./BAE/README.md#실기--예시문제--작업형-제2유형-20230623)
