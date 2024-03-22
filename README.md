@@ -18,7 +18,7 @@
 ## [Kaggle](#list)
 
 
-### [Competitions](/Kaggle/Competitions)
+### [Competitions](#list)
 
   [Kaggle](https://www.kaggle.com/kangrokkim) than Gargle!
 
@@ -29,24 +29,24 @@
     - [Python : HGB 1.0 (2022.07.27)](/Kaggle/Competitions/Titanic/README.md#python--hgb-10-20220727)
 
 
-### [Analysis](/Kaggle/Analysis/)
+### [Analysis](#list)
 
   These belong to Kaggle but are not related to competitions.
 
-  - [Data Splitting Practice in R (2023.08.05)](./Kaggle/Analysis/DataSplitting/)
-  - [Trends of *F1 Score* with Changes in Precision and Recall (2023.06.25)](./Kaggle/Analysis/F1Score/)
-  - [Decision Tree Regression with *Used Car Prices* in R (2022.12.07)](./Kaggle/Analysis/CarPrice/)
-  - [Black Jack](./Kaggle/Analysis/BlackJack/)
-    - [1. Set Initial Cards](./Kaggle/Analysis/BlackJack/README.md#1-set-initial-cards)
-      - [1.1 Trial 1 - Generate the Entire Initial Cases (2022.08.16)](./Kaggle/Analysis/BlackJack/README.md#11-trial-1---generate-the-entire-initial-cases-20220816)
-    - [0. Generate Cards' Data (2022.08.06)](./Kaggle/Analysis/BlackJack/README.md#0-generate-cards-data-20220806)
+  - [Data Splitting Practice in R (2023.08.05)](/Kaggle/Analysis/DataSplitting/)
+  - [Trends of *F1 Score* with Changes in Precision and Recall (2023.06.25)](/Kaggle/Analysis/F1Score/)
+  - [Decision Tree Regression with *Used Car Prices* in R (2022.12.07)](/Kaggle/Analysis/CarPrice/)
+  - [Black Jack](/Kaggle/Analysis/BlackJack/)
+    - [1. Set Initial Cards](/Kaggle/Analysis/BlackJack/README.md#1-set-initial-cards)
+      - [1.1 Trial 1 - Generate the Entire Initial Cases (2022.08.16)](/Kaggle/Analysis/BlackJack/README.md#11-trial-1---generate-the-entire-initial-cases-20220816)
+    - [0. Generate Cards' Data (2022.08.06)](/Kaggle/Analysis/BlackJack/README.md#0-generate-cards-data-20220806)
 
 
 
 ## [Programming Languages](#list)
 
 
-### [R](/R/)
+### [R](#list)
 
   While not all R code is related to analysis, this repository stores all R code for convenience, regardless of its content.
 
@@ -60,7 +60,7 @@
   - [Fibonacci Tornado (2017.05.07)](/R/README.md#fibonacci-tornado-20170507)
 
 
-### [Python](/Python/)
+### [Python](#list)
 
   - [Shuffle List (2020.03.30)](/Python/README.md#shuffle-list-20200330)
   - [Random Seed Influence (2020.01.05)](/Python/README.md#random-seed-influence-20200105)
@@ -72,9 +72,9 @@
 ## [ETC](#list)
 
 
-### [빅데이터분석기사](/BAE/)
+### [빅데이터분석기사](#list)
 
-  - [실기 / 예시문제 : 작업형 제1유형 (2023.06.23)](./BAE/README.md#실기--예시문제--작업형-제1유형-20230623)
-  - [실기 / 예시문제 : 작업형 제2유형 (2023.06.23)](./BAE/README.md#실기--예시문제--작업형-제2유형-20230623)
-  - [실기 / 예시문제 : 작업형 제3유형 (신유형, 2023.04.25)](./BAE/README.md#실기--예시문제--작업형-제3유형-신유형-20230425)
-  - [실기 / 제5회 : 필답형 9번 (2022.12.03)](./BAE/README.md#실기--제5회--필답형-9번-20221203)
+  - [실기 / 예시문제 : 작업형 제1유형 (2023.06.23)](/BAE/README.md#실기--예시문제--작업형-제1유형-20230623)
+  - [실기 / 예시문제 : 작업형 제2유형 (2023.06.23)](/BAE/README.md#실기--예시문제--작업형-제2유형-20230623)
+  - [실기 / 예시문제 : 작업형 제3유형 (신유형, 2023.04.25)](/BAE/README.md#실기--예시문제--작업형-제3유형-신유형-20230425)
+  - [실기 / 제5회 : 필답형 9번 (2022.12.03)](/BAE/README.md#실기--제5회--필답형-9번-20221203)
