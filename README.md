@@ -1,20 +1,23 @@
 # My AI Practice
 
-[Kaggle](https://www.kaggle.com/kangrokkim) than Gargle
+  This repository stores code related to statistics, data science, and artificial intelligence, which are relatively not traditional computer science domains.
 
 
 ## [Competitions](/Kaggle/Competitions)
 
+  [Kaggle](https://www.kaggle.com/kangrokkim) than Gargle!
+
 ### [Titanic](/Kaggle/Competitions/Titanic/)
-- [R : Random Forest (2023.12.02)](/Kaggle/Competitions/Titanic/README.md#r--random-forest-20231202)
-- [Python : HGB 1.2 (2022.07.31)](/Kaggle/Competitions/Titanic/README.md#python--hgb-12-20220731)
-- [Python : HGB 1.1 (2022.07.28)](/Kaggle/Competitions/Titanic/README.md#python--hgb-11-20220728)
-- [Python : HGB 1.0 (2022.07.27)](/Kaggle/Competitions/Titanic/README.md#python--hgb-10-20220727)
+
+  - [R : Random Forest (2023.12.02)](/Kaggle/Competitions/Titanic/README.md#r--random-forest-20231202)
+  - [Python : HGB 1.2 (2022.07.31)](/Kaggle/Competitions/Titanic/README.md#python--hgb-12-20220731)
+  - [Python : HGB 1.1 (2022.07.28)](/Kaggle/Competitions/Titanic/README.md#python--hgb-11-20220728)
+  - [Python : HGB 1.0 (2022.07.27)](/Kaggle/Competitions/Titanic/README.md#python--hgb-10-20220727)
 
 
 ## [Analysis](/Kaggle/Analysis/)
 
-  They are included in this category, where they belong to *Kaggle* but are not related with competitions.
+  These belong to Kaggle but are not related to competitions.
 
   - [Data Splitting Practice in R (2023.08.05)](./Kaggle/Analysis/DataSplitting/)
   - [Trends of *F1 Score* with Changes in Precision and Recall (2023.06.25)](./Kaggle/Analysis/F1Score/)
@@ -23,6 +26,20 @@
     - [1. Set Initial Cards](./Kaggle/Analysis/BlackJack/README.md#1-set-initial-cards)
       - [1.1 Trial 1 - Generate the Entire Initial Cases (2022.08.16)](./Kaggle/Analysis/BlackJack/README.md#11-trial-1---generate-the-entire-initial-cases-20220816)
     - [0. Generate Cards' Data (2022.08.06)](./Kaggle/Analysis/BlackJack/README.md#0-generate-cards-data-20220806)
+
+
+## [R](/R/)
+
+  While not all R code is related to analysis, this repository stores all R code for convenience, regardless of its content.
+
+  - [`any()` & `all()` Practice (2024.02.19)](/R/README.md#any--all-practice-20240219)
+  - [Slicing String with `substr()` (2023.06.26)](/R/README.md#slicing-string-with-substr-20230626)
+  - [`List` Practice in R (2022.11.22)](/R/README.md#list-in-r-20221122)
+  - [`Shiny` - 1st Trial (2022.05.04)](/R/README.md#shiny---1st-trial-20220504)
+  - [Scatter Points in a Circle (2021.08.16)](/R/README.md#scatter-points-in-a-circle-20210816)
+  - [Permutations and Combinations (2021.04.05)](/R/README.md#permutations-and-combinations-20210405)
+  - [Generating Array and Variables by for Loop (2019.12.06)](/R/README.md#generating-array-and-variables-by-for-loop-20191206)
+  - [Fibonacci Tornado (2017.05.07)](/R/README.md#fibonacci-tornado-20170507)
 
 
 ## [빅데이터분석기사](/BAE/)
