@@ -90,7 +90,8 @@ Oh my Julia 정말 행복한 거니
 
   16
 
-  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20   0.000255 seconds (462 allocations: 11.062 KiB)
+  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+    0.000255 seconds (462 allocations: 11.062 KiB)
 
   1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
     0.182614 seconds (39.54 k allocations: 2.568 MiB, 95.79% compilation time)
