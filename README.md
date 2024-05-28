@@ -11,12 +11,12 @@
 - [Programming Languages](#programming-languages)
   - [R](#r)
   - [Python](#python)
+  - [Julia](#julia)
 - [ETC](#etc)
   - [빅데이터분석기사](#빅데이터분석기사)
 
 
 ## [Kaggle](#list)
-
 
 ### [Competitions](#list)
 
@@ -27,7 +27,6 @@
     - [Python : HGB 1.2 (2022.07.31)](/Kaggle/Competitions/Titanic/README.md#python--hgb-12-20220731)
     - [Python : HGB 1.1 (2022.07.28)](/Kaggle/Competitions/Titanic/README.md#python--hgb-11-20220728)
     - [Python : HGB 1.0 (2022.07.27)](/Kaggle/Competitions/Titanic/README.md#python--hgb-10-20220727)
-
 
 ### [Analysis](#list)
 
@@ -42,9 +41,7 @@
     - [0. Generate Cards' Data (2022.08.06)](/Kaggle/Analysis/BlackJack/README.md#0-generate-cards-data-20220806)
 
 
-
 ## [Programming Languages](#list)
-
 
 ### [R](#list)
 
@@ -59,7 +56,6 @@
   - [Generating Array and Variables by for Loop (2019.12.06)](/R/README.md#generating-array-and-variables-by-for-loop-20191206)
   - [Fibonacci Tornado (2017.05.07)](/R/README.md#fibonacci-tornado-20170507)
 
-
 ### [Python](#list)
 
   - [Shuffle List (2020.03.30)](/Python/README.md#shuffle-list-20200330)
@@ -67,10 +63,12 @@
   - [Square Root (2020.01.01) (adjusted 2020.01.04)](/Python/README.md#square-root-20200101)
   - [Limited Range Sampling (2019.09.22)](/Python/README.md#limited-range-sampling-20190922)
 
+### [Julia](#list)
+
+  - [Initial Practice (2024.05.28)](/Julia/README.md#initial-practice-20240528)
 
 
 ## [ETC](#list)
-
 
 ### [빅데이터분석기사](#list)
 
