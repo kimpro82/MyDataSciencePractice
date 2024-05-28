@@ -1,6 +1,12 @@
 # Julia / Initial Practice
 # 2024.05.28
 
+# References
+# - [책] 줄리아 프로그래밍 (류대식,전기현 / 비제이퍼블릭 / 2024)
+#   https://search.shopping.naver.com/book/catalog/47287220619
+# - [블로그] 생새우초밥집 > 줄리아
+#   https://freshrimpsushi.github.io/ko/categories/줄리아/
+
 
 # 1. Calculation
 
@@ -87,7 +93,7 @@ for i in 1:3
 end
 display(p)
 
-png(p, "iris_kmeans.png")
+png(p, "Images/iris_kmeans.png")
 
 
 # 5. Regression
@@ -113,4 +119,4 @@ z = θ
 anim = @animate for i ∈ 0:3:360
     plot(x, y, z, xlabel="x", ylabel="y", zlabel="z", camera=(i,30), title="azimuth = $i")
 end
-gif(anim, "helix.gif", fps=50)
+gif(anim, "Images/helix.gif", fps=50)
