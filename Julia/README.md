@@ -14,6 +14,8 @@ Oh my Julia 정말 행복한 거니
   - [[책] 줄리아 프로그래밍 (류대식,전기현 / 비제이퍼블릭 / 2024)](https://search.shopping.naver.com/book/catalog/47287220619)
   - [[블로그] 생새우초밥집 > 줄리아](https://freshrimpsushi.github.io/ko/categories/줄리아/)
 
+- Development Environment (Online) : [COCALC](https://cocalc.com/)
+
 - Code and Results : `InitialPractice.jl`
   <details>
     <summary>1. Calculation</summary>
