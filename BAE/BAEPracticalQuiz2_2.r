@@ -9,7 +9,7 @@
 # setwd(), getwd() 등 작업 폴더 설정 불필요
 # 파일 경로 상 내부 드라이브 경로(C: 등) 접근 불가
 
-train = read.csv("data/customer_train.csv")
+train = read.csv("data/customer_train.csv")                 # no file in the local environment
 test = read.csv("data/customer_test.csv")
 
 # 사용자 코딩
@@ -23,9 +23,9 @@ library(caret)
 
 # 1. Data Skimming
 
-# str(train[,-11])
+str(train[,-11])
 # summary(train[,-11])
-# str(test)
+str(test)
 # summary(test)
 
 
