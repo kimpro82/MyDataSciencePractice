@@ -31,7 +31,7 @@ str(test)
 
 # 2. Data Pre-processing
 
-data <- merge(train, test, all=TRUE)                            # all=TRUE : Outer Join
+data <- merge(train, test, all=TRUE)                        # all=TRUE : Outer Join
 # str(data)
 # summary(data)
 
