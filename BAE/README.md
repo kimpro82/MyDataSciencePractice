@@ -197,9 +197,9 @@ https://www.dataq.or.kr/www/sub/a_07.do
           CP nsplit rel error  xerror     xstd
   1 0.057342      0   1.00000 1.00000 0.025761
   2 0.023000      2   0.88532 0.94212 0.025446
-     Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
   0.0000  0.0000  0.0000  0.3914  1.0000  1.0000
-     Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+    Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
   0.0000  0.0000  0.0000  0.3648  1.0000  1.0000
   ```
   ```txt
