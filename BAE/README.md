@@ -1,25 +1,27 @@
-## [빅데이터분석기사](../README.md#빅데이터분석기사)
+## [빅데이터분석기사 (실기)](../README.md#빅데이터분석기사-실기)
 
 https://www.dataq.or.kr/www/sub/a_07.do
 
 
 ### \<List>
 
-  - [실기 / 예시문제 : 작업형 제1유형 (2023.06.23)](#실기--예시문제--작업형-제1유형-20230623)
-  - [실기 / 예시문제 : 작업형 제2유형](#실기--예시문제--작업형-제2유형)
+- 예시문제
+  - [작업형 제1유형 (2023.06.23)](#작업형-제1유형-20230623)
+  - [작업형 제2유형](#작업형-제2유형)
     - [Trial 1 : Decision Tree (2023.06.23)](#trial-1--decision-tree-20230623)
     - [Trial 2 : Random Forest (2024.06.21)](#trial-2--random-forest-20240621)
-  - [실기 / 예시문제 : 작업형 제3유형 (신유형, 2023.04.25)](#실기--예시문제--작업형-제3유형-신유형-20230425)
-  - [실기 / 제5회 : 필답형 9번 (2022.12.03)](#실기--제5회--필답형-9번-20221203)
+  - [작업형 제3유형 (신유형, 2023.04.25)](#작업형-제3유형-신유형-20230425)
+- 기출문제
+  - [제5회 : 필답형 9번 (2022.12.03)](#제5회--필답형-9번-20221203)
 
 
 
-## [실기 / 예시문제 : 작업형 제1유형 (2023.06.23)](#list)
+## [작업형 제1유형 (2023.06.23)](#list)
 
 - 예시문제 ☞ https://dataq.goorm.io/exam/116674/체험하기/quiz/1
-
+- Code and Output
   <details>
-    <summary>Codes : BAEPracticalQuiz1.r</summary>
+    <summary>Code : BAEPracticalQuiz1.r</summary>
 
   ```r
   # 출력을 원할 경우 print() 함수 활용
@@ -76,14 +78,15 @@ https://www.dataq.or.kr/www/sub/a_07.do
   </details>
 
 
-## [실기 / 예시문제 : 작업형 제2유형](#list)
+## [작업형 제2유형](#list)
 
 - 예시문제 ☞ https://dataq.goorm.io/exam/116674/체험하기/quiz/2
 
-### [Trial 1 : Decision Tree (2023.06.23)](#실기--예시문제--작업형-제2유형)
+### [Trial 1 : Decision Tree (2023.06.23)](#작업형-제2유형)
 
+- Code and Output
   <details>
-    <summary>Codes : BAEPracticalQuiz2.r</summary>
+    <summary>Code : BAEPracticalQuiz2.r</summary>
 
   ```r
   # 출력을 원할 경우 print() 함수 활용
@@ -246,10 +249,11 @@ https://www.dataq.or.kr/www/sub/a_07.do
   Anyway, it meets the submission format.
   </details>
 
-### [Trial 2 : Random Forest (2024.06.21)](#실기--예시문제--작업형-제2유형)
+### [Trial 2 : Random Forest (2024.06.21)](#작업형-제2유형)
 
+- Code and Output
   <details>
-    <summary>Codes : BAEPracticalQuiz2_2.r</summary>
+    <summary>Code : BAEPracticalQuiz2_2.r</summary>
 
   ```r
   # 출력을 원할 경우 print() 함수 활용
@@ -399,12 +403,12 @@ https://www.dataq.or.kr/www/sub/a_07.do
   </details>
 
 
-## [실기 / 예시문제 : 작업형 제3유형 (신유형, 2023.04.25)](#list)
+## [작업형 제3유형 (신유형, 2023.04.25)](#list)
 
 - 예시문제 ☞ https://dataq.goorm.io/exam/116674/체험하기/quiz/3
-
+- Code and Output
   <details>
-    <summary>Codes : BAEPracticalQuiz3.r</summary>
+    <summary>Code : BAEPracticalQuiz3.r</summary>
 
   ```r
   # 출력을 원할 경우 print() 함수 활용
@@ -463,13 +467,13 @@ https://www.dataq.or.kr/www/sub/a_07.do
   </details>
 
 
-## [실기 / 제5회 : 필답형 9번 (2022.12.03)](#list)
+## [제5회 : 필답형 9번 (2022.12.03)](#list)
 
 - 가답안 전체 공유 ☞ [5회 실기(2022.12.03) 필답형 가답안 공유 (Kaggle Discussion)](https://www.kaggle.com/datasets/agileteam/bigdatacertificationkr/discussion/370155)
 - 문제 : 표준정규분포의 (-a, a) 구간은 99.7%? (☞ [Kaggle Discussion Comment](https://www.kaggle.com/datasets/agileteam/bigdatacertificationkr/discussion/370155#2055310))
-
+- Code and Output
   <details open="">
-    <summary>Codes : BAE5Q9.r</summary>
+    <summary>Code : BAE5Q9.r</summary>
 
   ```r
   pnorm(2.75, 0, 1)                       # 0.9970202
