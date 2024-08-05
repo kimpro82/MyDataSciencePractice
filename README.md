@@ -1,6 +1,6 @@
-# My AI Practice
+# My Data Science Practice
 
-  This repository stores **code related to statistics, data science, and artificial intelligence**, which are relatively not traditional computer science domains.
+  This repository stores **code related to statistics, data science, and artificial intelligence**, which are relatively not [traditional computer science domains](https://github.com/kimpro82/MyPractice).
 
 
 ### \<List>
@@ -65,6 +65,7 @@
 
 ### [Julia](#list)
 
+  - [K-Means Clustering for Text Data (2024.08.05)](/Julia/README.md#k-means-clustering-for-text-data-20240805)
   - [Initial Practice (2024.05.28)](/Julia/README.md#initial-practice-20240528)
 
 
