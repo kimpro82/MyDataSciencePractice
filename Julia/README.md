@@ -16,14 +16,14 @@ Oh my Julia 정말 행복한 거니
   ![K-Means Clustering For Text Data](./Images/text_kmeans.png)
 
   - Perform PCA & K-Means Clustering on Text Data
-    - Data: 40 English text samples of approximately 10 sentences each, covering topics such as politics, economics, culture, technology, and random subjects. The data is generated in JSON format through ChatGPT.
+    - Data(`texts.json`) : 40 English text samples of approximately 10 sentences each, covering topics such as politics, economics, culture, technology, and random subjects. The data is generated in JSON format through ChatGPT.
   - Outliers: Users can manually input outliers into the code if detected.
   - Clustering: Although clustering is an unsupervised learning method, the original text categories are displayed during visualization for comparison purposes.
   - Development Environment (Online) : Julia 1.6.3 on [Replit](https://replit.com/)
 - Future Improvements
   - Add Performance Evaluation: Incorporate performance evaluation features for PCA and K-Means Clustering.
   - Evaluation Methods: Since evaluating unsupervised learning results with confusion matrices is challenging, explore methods to assess group homogeneity and other evaluation metrics.
-- Code : `KMeansClusteringForTextData.jl`
+- Code and Results : `KMeansClusteringForTextData.jl`
   <details>
     <summary>0. Load packages</summary>
 
@@ -340,6 +340,28 @@ Oh my Julia 정말 행복한 거니
   # Plot clusters with category initials
   save_clusters_plot(X_reduced, labels, marker_initials, k)
   println("Cluster plot saved to file.")
+  ```
+  </details>
+  <details open="">
+    <summary>8. Results</summary>
+
+  ```txt
+  Package JSON is already installed.
+  Package Random is already installed.
+  Package StatsBase is already installed.
+  Package Clustering is already installed.
+  Package Plots is already installed.
+  Package Distances is already installed.
+  Package LinearAlgebra is already installed.
+  Package Colors is already installed.
+  Successfully loaded 40 texts from the JSON file.
+  Filtered out 0 user-defined outliers. Remaining data points: 40.
+  Finished preprocessing texts.
+  Finished vectorizing texts.
+  Finished PCA.
+  No outliers detected based on PCA.
+  Finished K-means clustering with k=3, n=40.
+  Cluster plot saved to file.
   ```
   </details>
 
