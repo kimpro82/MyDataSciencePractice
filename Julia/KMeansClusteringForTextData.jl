@@ -1,6 +1,9 @@
 # K-Means Clustering For Text Data
 # 2024.08.05
 
+
+# 0. Load packages
+
 using Pkg
 
 # Check and install required packages if not already installed
@@ -45,6 +48,9 @@ using Distances
 using LinearAlgebra
 using Colors
 
+
+# 1. Extract data
+
 # Load texts from a JSON file
 function load_texts_from_json(file_path::String)
     """
@@ -67,6 +73,9 @@ println("Successfully loaded $(length(texts_data)) texts from the JSON file.")
 indices = [item["index"] for item in texts_data]
 contents = [item["content"] for item in texts_data]
 categories = [item["category"] for item in texts_data]
+
+
+# 2. Filter user-defined outlier
 
 # Function to filter outliers
 function filter_outliers(X, indices_to_exclude)
@@ -91,6 +100,9 @@ filtered_indices = vec(filter_outliers(reshape(indices, 1, length(indices)), use
 filtered_contents = [contents[i] for i in filtered_indices]
 filtered_categories = [categories[i] for i in filtered_indices]
 println("Filtered out $(length(user_outlier_indices)) user-defined outliers. Remaining data points: $(length(filtered_indices)).")
+
+
+# 3. Preprocessing : Tokenizing and vectorizing
 
 # Preprocess text by tokenizing and lowercasing
 function preprocess(text)
@@ -134,6 +146,9 @@ vectors = [vectorize(text, vocab) for text in corpus]
 X = hcat(vectors...)
 println("Finished vectorizing texts.")
 
+
+# 4. PCA
+
 # Perform PCA for dimensionality reduction
 function pca(X; k=2)
     """
@@ -157,6 +172,9 @@ end
 # Perform PCA
 X_reduced = pca(X; k=2)
 println("Finished PCA.")
+
+
+# 5. Detect Outliers
 
 # Detect outliers from PCA results
 function detect_outliers_pca(X_reduced; iqr_multiplier=1.5)
@@ -214,6 +232,9 @@ outlier_indices = detect_outliers_pca(X_reduced)
 # Print detected outliers
 print_outlier_texts(filtered_contents, outlier_indices)
 
+
+# 6. K-means clustering
+
 # Perform K-means clustering
 function perform_kmeans(X, k; distance=Euclidean())
     """
@@ -234,6 +255,9 @@ k = 3  # Set the desired number of clusters
 result = perform_kmeans(X, k)
 labels = result.assignments
 println("Finished K-means clustering with k=$k, n=$(length(filtered_indices)).")
+
+
+# 7. Plot & Save
 
 # Map categories to marker initials
 category_to_initial = Dict(
