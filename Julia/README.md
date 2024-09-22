@@ -17,7 +17,8 @@ Oh my Julia 정말 행복한 거니
 
   ![Double Pendulum Simulation](./Images/double_pendulum.gif)
 
-- Code and Results : `KMeansClusteringForTextData.jl`
+- Reference : [Double pendulum (Wikipedia)](https://en.wikipedia.org/wiki/Double_pendulum)
+- Code and Results : `DoublePendulum.jl`
   <details>
     <summary>0. Load packages</summary>
 
