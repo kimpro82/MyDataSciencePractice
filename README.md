@@ -43,9 +43,9 @@
 
 ## [Programming Languages](#list)
 
-### [R](#list)
+  Not all of the code below is directly related to data science, but for convenience, all code in specialized languages like R and Julia will be categorized under this repository.
 
-  While not all R code is related to analysis, this repository stores all R code for convenience, regardless of its content.
+### [R](#list)
 
   - [`any()` & `all()` Practice (2024.02.19)](/R/README.md#any--all-practice-20240219)
   - [Slicing String with `substr()` (2023.06.26)](/R/README.md#slicing-string-with-substr-20230626)
