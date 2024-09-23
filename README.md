@@ -65,6 +65,7 @@
 
 ### [Julia](#list)
 
+  - [Triple Pendulum Simulation (2024.09.23)](/Julia/README.md#triple-pendulum-simulation-20240923)
   - [Double Pendulum Simulation (2024.09.22)](/Julia/README.md#double-pendulum-simulation-20240922)
   - [K-Means Clustering for Text Data (2024.08.05)](/Julia/README.md#k-means-clustering-for-text-data-20240805)
   - [Initial Practice (2024.05.28)](/Julia/README.md#initial-practice-20240528)
