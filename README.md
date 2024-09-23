@@ -43,9 +43,9 @@
 
 ## [Programming Languages](#list)
 
-### [R](#list)
+  Not all of the code below is directly related to data science, but for convenience, all code in specialized languages like R and Julia will be categorized under this repository.
 
-  While not all R code is related to analysis, this repository stores all R code for convenience, regardless of its content.
+### [R](#list)
 
   - [`any()` & `all()` Practice (2024.02.19)](/R/README.md#any--all-practice-20240219)
   - [Slicing String with `substr()` (2023.06.26)](/R/README.md#slicing-string-with-substr-20230626)
@@ -65,6 +65,7 @@
 
 ### [Julia](#list)
 
+  - [Double Pendulum Simulation (2024.09.22)](/Julia/README.md#double-pendulum-simulation-20240922)
   - [K-Means Clustering for Text Data (2024.08.05)](/Julia/README.md#k-means-clustering-for-text-data-20240805)
   - [Initial Practice (2024.05.28)](/Julia/README.md#initial-practice-20240528)
 
