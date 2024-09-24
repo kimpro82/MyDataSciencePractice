@@ -56,18 +56,19 @@
   - [Generating Array and Variables by for Loop (2019.12.06)](/R/README.md#generating-array-and-variables-by-for-loop-20191206)
   - [Fibonacci Tornado (2017.05.07)](/R/README.md#fibonacci-tornado-20170507)
 
+### [Julia](#list)
+
+  - [Triple Pendulum Simulation (2024.09.23)](/Julia/README.md#triple-pendulum-simulation-20240923)
+  - [Double Pendulum Simulation (2024.09.22)](/Julia/README.md#double-pendulum-simulation-20240922)
+  - [K-Means Clustering for Text Data (2024.08.05)](/Julia/README.md#k-means-clustering-for-text-data-20240805)
+  - [Initial Practice (2024.05.28)](/Julia/README.md#initial-practice-20240528)
+
 ### [Python](#list)
 
   - [Shuffle List (2020.03.30)](/Python/README.md#shuffle-list-20200330)
   - [Random Seed Influence (2020.01.05)](/Python/README.md#random-seed-influence-20200105)
   - [Square Root (2020.01.01) (adjusted 2020.01.04)](/Python/README.md#square-root-20200101)
   - [Limited Range Sampling (2019.09.22)](/Python/README.md#limited-range-sampling-20190922)
-
-### [Julia](#list)
-
-  - [Double Pendulum Simulation (2024.09.22)](/Julia/README.md#double-pendulum-simulation-20240922)
-  - [K-Means Clustering for Text Data (2024.08.05)](/Julia/README.md#k-means-clustering-for-text-data-20240805)
-  - [Initial Practice (2024.05.28)](/Julia/README.md#initial-practice-20240528)
 
 
 ## [ETC](#list)
