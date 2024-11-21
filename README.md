@@ -9,9 +9,9 @@
   - [Competitions](#competitions)
   - [Analysis](#analysis)
 - [Programming Languages](#programming-languages)
-  - [R](#r)
-  - [Python](#python)
   - [Julia](#julia)
+  - [Python](#python)
+  - [R](#r)
 - [ETC](#etc)
   - [빅데이터분석기사 (실기)](#빅데이터분석기사-실기)
 
@@ -43,21 +43,11 @@
 
 ## [Programming Languages](#list)
 
-  Not all of the code below is directly related to data science, but for convenience, all code in specialized languages like R and Julia will be categorized under this repository.
-
-### [R](#list)
-
-  - [`any()` & `all()` Practice (2024.02.19)](/R/README.md#any--all-practice-20240219)
-  - [Slicing String with `substr()` (2023.06.26)](/R/README.md#slicing-string-with-substr-20230626)
-  - [`List` Practice in R (2022.11.22)](/R/README.md#list-in-r-20221122)
-  - [`Shiny` - 1st Trial (2022.05.04)](/R/README.md#shiny---1st-trial-20220504)
-  - [Scatter Points in a Circle (2021.08.16)](/R/README.md#scatter-points-in-a-circle-20210816)
-  - [Permutations and Combinations (2021.04.05)](/R/README.md#permutations-and-combinations-20210405)
-  - [Generating Array and Variables by for Loop (2019.12.06)](/R/README.md#generating-array-and-variables-by-for-loop-20191206)
-  - [Fibonacci Tornado (2017.05.07)](/R/README.md#fibonacci-tornado-20170507)
+  Not all of the code below is directly related to data science, but for convenience, all code in specialized languages like Julia and R will be categorized under this repository.
 
 ### [Julia](#list)
 
+  - [Monte Carlo Simulation of Price Index Random Walks (2024.11.20)](/Julia/README.md#monte-carlo-simulation-of-price-index-random-walks-20241120)
   - [Triple Pendulum Simulation (2024.09.23)](/Julia/README.md#triple-pendulum-simulation-20240923)
   - [Double Pendulum Simulation (2024.09.22)](/Julia/README.md#double-pendulum-simulation-20240922)
   - [K-Means Clustering for Text Data (2024.08.05)](/Julia/README.md#k-means-clustering-for-text-data-20240805)
@@ -69,6 +59,17 @@
   - [Random Seed Influence (2020.01.05)](/Python/README.md#random-seed-influence-20200105)
   - [Square Root (2020.01.01) (adjusted 2020.01.04)](/Python/README.md#square-root-20200101)
   - [Limited Range Sampling (2019.09.22)](/Python/README.md#limited-range-sampling-20190922)
+
+### [R](#list)
+
+  - [`any()` & `all()` Practice (2024.02.19)](/R/README.md#any--all-practice-20240219)
+  - [Slicing String with `substr()` (2023.06.26)](/R/README.md#slicing-string-with-substr-20230626)
+  - [`List` Practice in R (2022.11.22)](/R/README.md#list-in-r-20221122)
+  - [`Shiny` - 1st Trial (2022.05.04)](/R/README.md#shiny---1st-trial-20220504)
+  - [Scatter Points in a Circle (2021.08.16)](/R/README.md#scatter-points-in-a-circle-20210816)
+  - [Permutations and Combinations (2021.04.05)](/R/README.md#permutations-and-combinations-20210405)
+  - [Generating Array and Variables by for Loop (2019.12.06)](/R/README.md#generating-array-and-variables-by-for-loop-20191206)
+  - [Fibonacci Tornado (2017.05.07)](/R/README.md#fibonacci-tornado-20170507)
 
 
 ## [ETC](#list)
